@@ -1,0 +1,96 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #F6FFF8; /* Almost White */
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background: #6B9080; /* Dark Green */
+    color: #FFFFFF; /* White */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #FFFFFF; /* White */
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main section styling */
+main {
+    padding: 20px;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px;
+}
+
+/* Reminder text styling */
+#reminder-text {
+    background-color: #A4C3B2; /* Light Green */
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #000000; /* Black */
+}
+
+/* Deadlines section styling */
+#deadlines {
+    background-color: #CCE3DE; /* Pale Blue */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#deadlines h2 {
+    color: #6B9080; /* Dark Green */
+}
+
+#deadlines ul {
+    list-style-type: none;
+}
+
+#deadlines ul li {
+    background-color: #EAF4F4; /* Lightest Blue */
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+/* Footer styling */
+footer {
+    background: #6B9080; /* Dark Green */
+    color: #FFFFFF; /* White */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
