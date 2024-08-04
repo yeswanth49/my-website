@@ -6,13 +6,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #FFCCD5;
 }
 
 body{
     margin: 0.5rem;
     font-family: 'Roboto',sans-serif;
     text-align: center;
+    background-color: #FFCCD5;
 }
 
 nav{
