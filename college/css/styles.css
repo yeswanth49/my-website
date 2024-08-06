@@ -18,6 +18,10 @@ header {
     color: #FFFFFF; /* White */
     padding: 10px 0;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 header h1 {
@@ -45,12 +49,12 @@ nav a:hover {
 
 /* Main section styling */
 main {
-    padding: 20px;
+    padding: 80px 20px 20px 20px;
 }
 
 /* Section styling */
 section {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 /* Reminder text styling */
