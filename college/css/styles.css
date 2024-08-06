@@ -47,6 +47,33 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* Search bar styling */
+.search-container {
+    margin-top: 10px;
+}
+
+.search-container input {
+    padding: 5px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-container button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #A4C3B2; /* Light Green */
+    color: #333;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #6B9080; /* Dark Green */
+    color: #FFF;
+}
+
 /* Main section styling */
 main {
     padding: 80px 20px 20px 20px;
